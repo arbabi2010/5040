@@ -19,11 +19,11 @@
         </table>
 
         @else
-            <div class="alert alert-secondary alert-block">
+            <p class="alert alert-secondary alert-block">
                 سبد خرید خالی می باشد.
                 <br>
                 محصول جدید به سبد خود <a href="/">اضافه</a> کنید.
-            </div>
+            </p>
         @endif
     </div>
 @endsection

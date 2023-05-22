@@ -13,6 +13,12 @@
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <style>
+        body{
+            text-align: right;
+            direction: rtl;
+        }
+    </style>
     <!-- Custom styles for this template -->
 </head>
 <body>
@@ -20,7 +26,7 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item {{ Route::is('home') ? 'active' : '' }}">
                     <a class="nav-link" href="/">خانه <span class="sr-only">(current)</span></a>
                 </li>
